@@ -1,0 +1,65 @@
+
+body{
+	font-family: 'Courior' monospace;
+}
+
+#wrapper{
+	width: 960px;
+	height:  600px;
+	margin: 0 auto;
+	background-color: #666666;
+	background-image: url("../images/background1.jpg");
+	
+	
+}
+
+#header{
+	width: 100%;
+	height: 15%;
+}
+
+#sidebar{
+	width: 15%;
+	height: 85;
+	float: right;
+}
+
+#main{
+	width: 85%;
+	height: 85%;
+	background-image: url("../images/backgroundrecess.jpg");
+	background-repeat: none;
+	float: left;
+}
+
+a{
+	display: block;
+	
+}
+
+.Nergigante{
+	float: left;
+	width: 500px;
+	height: 500px;
+	position: relative;
+	top: -31px;
+}
+
+h1, a, img{
+	padding: 15px;
+}
+
+p{
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: underline;
+}
+
+.ui{
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: underline;
+}
